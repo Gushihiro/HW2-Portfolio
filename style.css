@@ -1,6 +1,6 @@
 :root {
     --pink: rgb(230, 230, 230);
-    --yellow: rgb(255, 254, 188);
+    --yellow: rgb(255, 255, 255);
 }
 * {
     margin: 0;
@@ -36,20 +36,22 @@ header {
     align-items: center;
     height:80%;
     font-size:80px;
-    margin:10px auto;
+    margin:40px auto 10px auto;
     text-align:center;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Newsreader', serif;
     
 }
 
 #header h6 {
     font-family: 'Roboto Slab', serif;
     font-size:14px;
+    color:rgb(94, 94, 94);
+    
 }
 
 #header a {
     text-decoration: none;
-    color: black;
+    color: rgb(24, 24, 24);
 }
 
 #body {
@@ -134,17 +136,16 @@ img:hover {
 #aside-nav {
     display:flex;
     position:relative;
-    bottom:100px;
-    
+    bottom:100px;   
 }
 
 #aside-nav a {
     text-decoration: none;
-    color:rgb(250, 249, 185);
+    color:rgb(179, 179, 179);
 }
 
 #aside-nav a:visited {
-    color:rgb(187, 210, 216);
+    color:rgb(94, 94, 94);
 }
 
 #aside-header {
@@ -159,11 +160,11 @@ img:hover {
 }
 
 #aside-header:hover {
-    text-shadow: 5px 5px 20px rgb(250, 253, 54);
+    text-shadow: 5px 5px 20px rgb(156, 156, 156);
 }
 
 #aside-header:focus {
-    text-shadow: 5px 5px 20px rgb(250, 253, 54);
+    text-shadow: 5px 5px 20px rgb(156, 156, 156);
 }
 
 #aside-header:focus {
@@ -185,12 +186,12 @@ img:hover {
 }
 
 #aside-nav li:hover {
-    text-shadow: 5px 5px 20px rgb(250, 253, 54);
+    text-shadow: 5px 5px 20px rgb(156, 156, 156);
 }
 
 footer {
     flex-shrink:0;
-    border-top: 2px dashed rgb(255, 254, 188, .4);
+    border-top: 2px dashed var(--yellow);
     display:flex;
     justify-content:center;
     align-items: flex-end;
@@ -298,10 +299,6 @@ footer {
     #important {
         width:100%;
         border:none;
-    }
-
-    .first-card {
-        flex-direction:row;
     }
 
     #okinawa {
