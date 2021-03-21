@@ -94,7 +94,9 @@ header {
 
 #bighead {
     display:flex;
+    flex-wrap:wrap;
     margin:0 auto;
+    justify-content: center;
 }
 
 #bighead h2 {
@@ -103,8 +105,9 @@ header {
 
 #bighead h6 {
     position: relative;
-    top: 60px;
+    left:160px;
     font-size: 16px;
+    justify-content:center;
 }
 
 .first-card {
@@ -247,8 +250,14 @@ footer {
 #about-me1 {
     margin:0 auto;
     display:flex;
-    width:90%;
+    flex-wrap:wrap;
+    width:60%;
     justify-content: center;
+    font-family: 'Newsreader', serif;
+}
+
+#about-me1 h2 {
+    margin:20px auto;
 }
 
 @media screen and (max-width:992px) {
@@ -278,6 +287,12 @@ footer {
     #bighead {
         font-size:27px;
     }
+
+    #bighead h6 {
+        position:relative;
+        left:0;
+    }
+
     #important {
         width:40%;
     }
@@ -297,7 +312,7 @@ footer {
         margin-top:220px;
     }
     #aside-header {
-        bottom:2160px;
+        bottom:2090px;
         background:transparent;
         border:none;
     }
@@ -324,6 +339,11 @@ footer {
     #okinawa {
         width:80%;
     }
+
+    #okinawa:hover {
+        width:100%;
+    }
+
     #vaporwave {
         width:80%;
     }
