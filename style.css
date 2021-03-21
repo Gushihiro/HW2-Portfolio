@@ -95,7 +95,16 @@ header {
 #bighead {
     display:flex;
     margin:0 auto;
-    font-size:60px;
+}
+
+#bighead h2 {
+    font-size: 60px;
+}
+
+#bighead h6 {
+    position: relative;
+    top: 60px;
+    font-size: 16px;
 }
 
 .first-card {
@@ -298,10 +307,15 @@ footer {
     .cards img {
         width:100%;
     }
-    #bighead {
+    #bighead  h2{
         width:100%;
         font-size:50px;
     }
+
+    #bighead h6 {
+        font-size:16px;
+    }
+
     #important {
         width:100%;
         border:none;
