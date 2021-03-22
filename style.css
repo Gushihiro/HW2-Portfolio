@@ -348,3 +348,9 @@ footer {
         width:80%;
     }
 }
+
+@media screen and (max-width:384px) {
+    #aside-header {
+        bottom: 200px;
+    }
+}
