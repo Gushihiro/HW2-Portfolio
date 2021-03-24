@@ -84,6 +84,18 @@ header {
     text-align:center;
 }
 
+.cards img {
+    width:60%;
+}
+
+.cards:hover h2 {
+    font-size:25px;
+}
+
+.cards:hover img {
+    width:80%;
+}
+
 #important {
     width:65%;
     display:flex;
